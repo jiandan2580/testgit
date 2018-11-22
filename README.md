@@ -4,7 +4,7 @@
 #分步骤将数据集进行“解码(输出可读代码文本)”--->“范化(将数字、url链接精简化)”--->“分词”三个过程。实现代码及输出结果都在文件中。
 #分词后的结果如下所示：
 #正样例：
-#topic=http://gmwgroup.harvard.edu/techniques/index.php?topic=<script>alert(document.cookie)</script>
+#topic=gmwgroup.harvard.edu/techniques/index.php?topic=<script>alert(document.cookie)</script>
 #siteID=';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
 #js='"--></style></script><script>alert(/meehinfected/)</script></title><marquee><h1>XSS:)</h1><marquee><strong><blink>XSSTEST</blink></strong></marquee><h1  >XSS :) </h1></marquee>
 
